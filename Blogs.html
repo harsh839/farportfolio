@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="blogs.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <a href="index.html"><div class="logo">Fardeen Khan</div></a>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Blogs</a></li>
+            <div class="dropdown">
+              <button class="dropbtn">Research</button>
+              <div class="dropdown-content">
+                <a href="#">Stories</a>
+                <a href="#">Threads</a>
+              </div>
+            </div> 
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Fardeen Khan</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Blogs</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Research</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Blogs</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="C:\Users\Harsh\Downloads\html-css-js-portfolio-tutorial-2-main\html-css-js-portfolio-tutorial-2-main\assets\1 hQqUL1xluajEapl_JGugcg.webp"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">SMR | Tendermint ( Partial Synchronous)| PERMISSIONLESS SETTINGS AROUND A CONSENSUS PROTOCOL</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://weufoundation.medium.com/smr-partial-synchronus-tendermint-permissionless-settings-around-a-consensus-protocol-4a8dd604339d'"
+                >
+                  Know More
+                </button>
+                <!-- <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button> -->
+              </div>
+            </div>
+           
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="C:\Users\Harsh\Downloads\html-css-js-portfolio-tutorial-2-main\html-css-js-portfolio-tutorial-2-main\assets\consensus design.webp"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">CONSENSUS DESIGN AROUND BYZANTINE PROBLEM</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://weufoundation.medium.com/consensus-design-around-byzantine-problem-ce75696cd89c'"
+                >
+                  Know More
+                </button>
+                <!-- <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button> -->
+              </div>
+            </div>
+            <!-- <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="C:\Users\Harsh\Downloads\html-css-js-portfolio-tutorial-2-main\html-css-js-portfolio-tutorial-2-main\assets\smart contracts.jpg"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Streamlining The Procurement Process Through Smart Contracts</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://weufoundation.medium.com/streamlining-the-procurement-process-through-smart-contracts-92d94074b560'"
+                >
+                  Know More
+                </button>
+                <!-- <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button> -->
+              </div>
+            </div> -->
+            <!-- <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">SNARK DESIGN AND THEIR ROLE IN ROLLUPS</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://weufoundation.medium.com/snark-design-and-their-role-in-rollups-e8062c160f99'"
+                >
+                  Know More
+                </button>
+               <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="fardeenkhan8599@gmail.com">fardeenkhan8599@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/fardeen-khan-093938212">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Blogs</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2023 Fardeen Khan. All Rights Reserved.</p>
+      </footer>
+</body>
+</html>
